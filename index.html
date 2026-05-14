@@ -4,6 +4,7 @@
 <head>
 	<title>Muhammed Uvais | Full-Stack MERN Developer</title>
 	<meta charset="utf-8">
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -28,27 +29,12 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="css/dark.css">
+	<link rel="stylesheet" href="css/gradual-blur.css">
+	<link rel="stylesheet" href="css/floating-nav.css">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-		<div class="container">
-			<a class="navbar-brand" href="index.html">Uvais</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="oi oi-menu"></span> Menu
-			</button>
-
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<!-- END nav -->
 
 	<section id="home-section" class="hero">
 		<h1 class="vr text-center">Uvais</h1>
@@ -82,6 +68,14 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<!-- Custom Navigation Buttons at Bottom of Hero -->
+		<div class="hero-nav-buttons w-100 text-center" style="position: absolute; bottom: 50px; z-index: 100;">
+			<a href="index.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">Home</a>
+			<a href="about.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">About</a>
+			<a href="work.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">Work</a>
+			<a href="contact.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">Contact</a>
 		</div>
 	</section>
 
@@ -205,7 +199,7 @@
 
 		<div class="container-fluid px-0 portfolio-entry">
 			<div class="row no-gutters d-md-flex justify-content-start text-wrapper">
-				<div class="one-half img js-fullheight" style="background-image: url('images/ranjus.webp');"></div>
+				<div class="one-half img js-fullheight" style="background-image: url('images/ranjus.jpg');"></div>
 				<div class="one-half half-text d-flex justify-content-end align-items-center ftco-animate">
 					<div class="text-2 align-items-start d-flex">
 						<div class="desc pt-5 pr-4 pl-4 pt-lg-0 pr-lg-5 pr-xl-0 pl-xl-0">
@@ -263,9 +257,9 @@
 			<div class="row mb-5">
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">About Me</h2>
-						<p>Results-driven Full-Stack MERN Developer dedicated to building scalable and modern web
-							applications.</p>
+						<img src="images/favicon.png" alt="Logo"
+							style="height: 50px; margin-bottom: 20px;border-radius: 4px;">
+						<p>Professional Full-Stack Developer specializing in MERN stack and clean architecture.</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
 							<li class="ftco-animate"><a href="https://github.com/uvais-d8"><span
 										class="icon-github"></span></a></li>
@@ -354,6 +348,8 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/gradual-blur.js"></script>
+	<script src="js/floating-nav.js"></script>
 
 </body>
 

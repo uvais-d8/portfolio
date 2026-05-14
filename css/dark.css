@@ -1,0 +1,250 @@
+/* Pure Black Background & Pure White Text Override */
+body,
+html {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Global Image Border Radius */
+img, 
+.img,
+.one-half.img,
+.portfolio-wrap .img,
+.services-section .icon,
+.testimony-img,
+.user-img,
+.blog-entry .img,
+.about-author .img,
+.hero-wrap,
+.slider-item {
+  border-radius: 4px !important;
+  overflow: hidden !important;
+}
+
+
+
+/* Backgrounds */
+.ftco-section,
+.ftco-intro,
+.services-section,
+.testimony-section,
+.ftco-footer,
+.hero-wrap,
+.bg-light,
+.bg-white,
+.contact-section,
+.block-9,
+.portfolio-wrap {
+  background-color: #000000 !important;
+}
+
+/* Glassmorphism Elements (Advanced Styles) */
+.contact-form,
+.about-author,
+.box,
+.tag-widget,
+.comment-form-wrap form {
+  background: rgba(20, 20, 20, 0.4) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+}
+
+/* Text Colors */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+.heading,
+.subheading,
+.ftco-heading-2,
+.navbar-brand,
+.nav-link,
+.text,
+.name,
+.position {
+  color: #ffffff !important;
+}
+
+/* Keep primary accent colors for buttons and specific highlights if possible, but force general text white */
+.ftco-footer-social li a span,
+.contact-info .icon span {
+  color: #ffffff !important;
+}
+
+/* Navbar general (Centered, 75% width, no blur in hero) */
+.ftco-navbar-light {
+  width: 75% !important;
+  margin: 0 auto !important;
+  left: 0 !important;
+  right: 0 !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Scrolled Navbar specifically (Glassmorphism) */
+.ftco-navbar-light.scrolled {
+  margin: 15px auto !important;
+  /* Slight float when scrolled */
+  border-radius: 16px;
+  background: rgba(15, 15, 15, 0.7) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
+  color: #ffffff !important;
+}
+
+/* Service cards borders to make them visible against pure black */
+.services-section .media.block-6 {
+  background: rgba(20, 20, 20, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  margin: 15px;
+  padding: 40px 30px !important;
+  /* Increased internal padding */
+  /* Adds a visible gap between the 4 cards */
+  height: calc(100% - 30px);
+}
+
+.services-section .media.block-6:hover {
+  background: rgba(40, 40, 40, 0.6) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-5px);
+}
+
+/* Form elements */
+input.form-control,
+textarea.form-control {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Hero Navigation Buttons (Glassmorphism) */
+.hero,
+.hero-wrap {
+  position: relative !important;
+}
+
+.hero-nav-buttons a {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  /* Increased */
+  font-weight: 700;
+  /* Increased */
+  padding: 12px 28px !important;
+  /* Increased */
+}
+
+.hero-nav-buttons a:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-3px) !important;
+  border-color: #ffffff !important;
+}
+
+/* Contact Page Refinements */
+.contact-info .box {
+  margin: 10px !important;
+  width: calc(100% - 20px) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+.contact-info .box:hover {
+  transform: translateY(-10px) scale(1.02) !important;
+  background: rgba(40, 40, 40, 0.6) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.6) !important;
+}
+
+#map {
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Themed Backgrounds for Sections - Simplified to Pure Black */
+.ftco-section,
+.contact-section,
+.about-section {
+  position: relative;
+  background-color: #000000 !important;
+  background-image: none !important;
+}
+
+
+/* Ensure glassmorphic cards stand out against the image background */
+.box,
+.contact-form,
+.services-section .media.block-6 {
+  background: rgba(10, 10, 10, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Mobile Responsiveness Overrides */
+@media (max-width: 768px) {
+  .hero-nav-buttons {
+    bottom: 30px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 10px !important;
+  }
+
+  .hero-nav-buttons a {
+    font-size: 11px !important;
+    padding: 8px 16px !important;
+    margin: 0 !important;
+    min-width: 100px !important;
+  }
+
+  .ftco-navbar-light {
+    width: 100% !important;
+  }
+
+  .contact-info .box {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-nav-buttons {
+    bottom: 15px !important;
+  }
+
+  .hero-nav-buttons a {
+    font-size: 10px !important;
+    padding: 6px 12px !important;
+    min-width: 80px !important;
+  }
+}

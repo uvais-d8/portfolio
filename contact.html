@@ -5,6 +5,7 @@
   <title>Muhammed Uvais | Full-Stack MERN Developer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:900&display=swap" rel="stylesheet">
@@ -28,29 +29,14 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dark.css">
+  <link rel="stylesheet" href="css/gradual-blur.css">
+  <link rel="stylesheet" href="css/floating-nav.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Uvais</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="work.html" class="nav-link">Work</a></li>
-          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- END nav -->
-
-  <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/bg_3.jpg');"
+  <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-color: #000;"
     data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
@@ -58,26 +44,34 @@
         <div class="col-md-9 ftco-animate pb-5">
           <h2 class="mb-3 bread">Contact Us</h2>
           <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-                  class="ion-ios-arrow-forward"></i></a></span> <span>About us <i
+                  class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i
                 class="ion-ios-arrow-forward"></i></span></p>
         </div>
       </div>
     </div>
+    <!-- Custom Navigation Buttons at Bottom of Hero -->
+    <div class="hero-nav-buttons w-100 text-center" style="position: absolute; bottom: 50px; z-index: 100;">
+      <a href="index.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">Home</a>
+      <a href="about.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">About</a>
+      <a href="work.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">Work</a>
+      <a href="contact.html" class="btn btn-outline-light px-4 py-2 mx-2" style="border-radius: 30px;">Contact</a>
+    </div>
   </section>
 
-  <section class="contact-section bg-primary">
+  <section class="contact-section section-padding-custom" style="padding: 100px 0;">
     <div class="container">
-      <div class="row no-gutters d-flex contact-info">
-        <div class="col-md-3 d-flex">
+      <div class="row d-flex contact-info mb-5">
+        <div class="col-md-3 d-flex mb-4">
           <div class="align-self-stretch box p-4 py-md-5 text-center">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-map-signs"></span>
             </div>
             <h3 class="mb-4">Address</h3>
-            <p>Kerala, India</p>
+            <p><a href="https://www.google.com/maps/search/?api=1&query=Kerala,+India" target="_blank">Kerala, India</a>
+            </p>
           </div>
         </div>
-        <div class="col-md-3 d-flex">
+        <div class="col-md-3 d-flex mb-4">
           <div class="align-self-stretch box p-4 py-md-5 text-center">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-phone2"></span>
@@ -86,44 +80,46 @@
             <p><a href="tel://+917594060696">+91 75940 60696</a></p>
           </div>
         </div>
-        <div class="col-md-3 d-flex">
+        <div class="col-md-3 d-flex mb-4">
           <div class="align-self-stretch box p-4 py-md-5 text-center">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-paper-plane"></span>
             </div>
             <h3 class="mb-4">Email Address</h3>
-            <p><a href="mailto:muhammeduvais6060@gmail.com">muhammeduvais6060@gmail.com</a></p>
+            <p><a href="mailto:muhammeduvais6060@gmail.com">muhammeduvais6060<br>@gmail.com</a></p>
           </div>
         </div>
-        <div class="col-md-3 d-flex">
+        <div class="col-md-3 d-flex mb-4">
           <div class="align-self-stretch box p-4 py-md-5 text-center">
             <div class="icon d-flex align-items-center justify-content-center">
               <span class="icon-globe"></span>
             </div>
             <h3 class="mb-4">Website</h3>
-            <p><a href="https://github.com/uvais-d8">github.com/uvais-d8</a></p>
+            <p><a href="https://portfolio-mftp.onrender.com/">portfolio /<br> Muhammed Uvais</a></p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+  <section class="ftco-section contact-section" style="padding: 100px 0;">
     <div class="container-fluid px-0">
-      <div class="row no-gutters block-9">
-        <div class="col-md-6 order-md-last d-flex">
-          <form action="#" class="bg-light p-5 contact-form">
+      <div class="row block-9">
+        <div class="col-md-6 order-md-last d-flex mb-4">
+          <form action="https://formspree.io/f/muhammeduvais6060@gmail.com" method="POST"
+            class="bg-light p-5 contact-form">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Email">
+              <input type="email" name="_replyto" class="form-control" placeholder="Your Email" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required>
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"
+                required></textarea>
             </div>
             <div class="form-group">
               <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
@@ -132,7 +128,7 @@
 
         </div>
 
-        <div class="col-md-6 d-flex">
+        <div class="col-md-6 d-flex mb-4">
           <div id="map" class="bg-white"></div>
         </div>
       </div>
@@ -230,7 +226,8 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-
+  <script src="js/gradual-blur.js"></script>
+  <script src="js/floating-nav.js"></script>
 </body>
 
 </html>
